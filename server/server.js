@@ -17,6 +17,12 @@ const PORT = process.env.PORT || 5000;
 const uploadsDir = path.join(__dirname, '../uploads');
 const dbPath = path.join(__dirname, 'db.json');
 
+// Serve static files from the React app build directory
+const distPath = path.join(__dirname, '../dist');
+if (await fs.pathExists(distPath)) {
+  app.use(express.static(distPath));
+}
+
 // Middleware
 app.use(cors());
 app.use(express.json());
@@ -309,6 +315,16 @@ app.get('/api/display/:id', async (req, res) => {
     });
   } catch (error) {
     res.status(500).json({ error: 'Failed to fetch display data' });
+  }
+});
+
+// Catch all handler: send back React's index.html file for any non-API routes
+app.get('*', (req, res) => {
+  const indexPath = path.join(distPath, 'index.html');
+  if (fs.existsSync(indexPath)) {
+    res.sendFile(indexPath);
+  } else {
+    res.status(404).send('App not built. Please run npm run build first.');
   }
 });
 
