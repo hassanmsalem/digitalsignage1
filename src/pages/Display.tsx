@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import { displayApi } from '../services/api';
 import { Content } from '../contexts/AppContext';
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || `http://${window.location.hostname}:5000`;
+const API_BASE_URL = import.meta.env.VITE_API_URL || `http://localhost:10000`;
 
 export default function Display() {
   const { id } = useParams<{ id: string }>();

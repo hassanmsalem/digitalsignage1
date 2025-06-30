@@ -2,7 +2,7 @@ import axios from 'axios';
 import { Screen, Playlist, Content } from '../contexts/AppContext';
 
 // Use window.location.protocol to match the frontend protocol
-const API_BASE_URL = import.meta.env.VITE_API_URL || `${window.location.protocol}//${window.location.hostname}:5000`;
+const API_BASE_URL = import.meta.env.VITE_API_URL || `${window.location.protocol}//${window.location.hostname}:10000`;
 
 const api = axios.create({
   baseURL: API_BASE_URL,
