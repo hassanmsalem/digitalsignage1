@@ -1,0 +1,64 @@
+{
+  "screens": [
+    {
+      "id": "8c44a93c-d755-48c4-a713-57df3d912e21",
+      "name": "dwdwdw",
+      "location": "hrgr",
+      "playlistId": "ff43eb9c-42cc-482a-bb36-3f31d97ec013",
+      "isActive": true,
+      "createdAt": "2025-06-26T14:41:16.126Z"
+    }
+  ],
+  "playlists": [
+    {
+      "id": "ff43eb9c-42cc-482a-bb36-3f31d97ec013",
+      "name": "swsws",
+      "description": "",
+      "contentIds": [
+        "69356faa-70a2-4e41-b70a-c1b9679031f9",
+        "5c80d314-7510-49f7-bab6-84a6c96dbc1c",
+        "ec6463d7-7f9e-43ff-985b-4e3140bd1747",
+        "7e86baab-a0d9-4a48-a14e-f65e56595ff4"
+      ],
+      "duration": 30,
+      "createdAt": "2025-06-26T14:41:08.178Z"
+    }
+  ],
+  "content": [
+    {
+      "id": "69356faa-70a2-4e41-b70a-c1b9679031f9",
+      "name": "adadasd",
+      "type": "image",
+      "duration": 2,
+      "createdAt": "2025-06-26T14:40:21.766Z",
+      "url": "/uploads/1750948821760-7b766a5a-d8b7-4ca5-8b50-a3525077b7ea.jpg",
+      "fileName": "1750948821760-7b766a5a-d8b7-4ca5-8b50-a3525077b7ea.jpg"
+    },
+    {
+      "id": "5c80d314-7510-49f7-bab6-84a6c96dbc1c",
+      "name": "baga",
+      "type": "image",
+      "duration": 5,
+      "createdAt": "2025-06-26T14:40:31.895Z",
+      "url": "/uploads/1750948831875-c9c89462-b080-48e8-9906-379cefd9da55.jpg",
+      "fileName": "1750948831875-c9c89462-b080-48e8-9906-379cefd9da55.jpg"
+    },
+    {
+      "id": "ec6463d7-7f9e-43ff-985b-4e3140bd1747",
+      "name": "sasas",
+      "type": "text",
+      "duration": 2,
+      "createdAt": "2025-06-26T14:40:47.537Z",
+      "url": "hello Nabil"
+    },
+    {
+      "id": "7e86baab-a0d9-4a48-a14e-f65e56595ff4",
+      "name": "swsws",
+      "type": "video",
+      "duration": 30,
+      "createdAt": "2025-06-26T14:40:59.557Z",
+      "url": "/uploads/1750948859507-8e1cb337-70e9-468b-b0aa-a53048f3805e.mp4",
+      "fileName": "1750948859507-8e1cb337-70e9-468b-b0aa-a53048f3805e.mp4"
+    }
+  ]
+}
